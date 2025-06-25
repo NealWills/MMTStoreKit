@@ -1,5 +1,5 @@
 //
-//  MMT15StoreContextModel.swift
+//  MMTStoreContextModel.swift
 //  MMTStoreKit
 //
 //  Created by Maxeye_Neal on 2025/6/25.

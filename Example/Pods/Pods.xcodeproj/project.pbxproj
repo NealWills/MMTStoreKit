@@ -7,50 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09B1ED336FB2789FCC6853DB1A5E3938 /* MMT15StoreContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62A383D66D8644EA9EE4F24A750CDFD /* MMT15StoreContext.swift */; };
-		130477324ADA476D576209AE22644B1C /* MMT15ValidatableTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D94D818F081322976D722D0A38B2356 /* MMT15ValidatableTransaction.swift */; };
-		1448D8201C5802A50A1DD163CFD39789 /* MMTStoreContextModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DEA6D4B5CCC3EE1D2D92F4CE7BA19A /* MMTStoreContextModel.swift */; };
-		20092ED1A2F51BD3922993E1C2A8EC1B /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 42E6F075A6CB9F59E9D5AEA85AB20344 /* Localizable.strings */; };
-		380CFA1C0381C12001E2692D7D06E6BF /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 85CCE8C22BB67BA92517809A4E6913C5 /* Localizable.strings */; };
-		3A990DDEF41D77110D3A3F9C818C0B25 /* MMTStoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D429B159F3187B71E54EFC98E9D8BE1 /* MMTStoreKit.swift */; };
+		01FCAACFF94019AC97D5B91E7D514CA6 /* MMT14DownIAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A638EE2BF94ADCE8B6C4B440CBCBAD /* MMT14DownIAPManager.swift */; };
+		13D9E7EF46CAE48F1A0B27CC28E65A72 /* MMTStoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E46030D4521DE029CF18733432BAFEB /* MMTStoreKit.swift */; };
+		13E4BAB6AEC8E53B80B42E5DA472D199 /* MMT14DownStoreKitToolUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4EA5E39C207300D1DEB7D7FF11496C /* MMT14DownStoreKitToolUnit.swift */; };
+		2909E17ADC4D9F059FA8412F6E59777E /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 3C0D054E18FB1FB910B50A816340B09D /* Localizable.strings */; };
+		371E003BDBE33B84CBAA8009E485D2AE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297FD2E1D59274EC8D0118D136B036E3 /* Product.swift */; };
 		4686705C4B08A07CC24762C2990A2FF0 /* Pods-MMTStoreKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 801516F93D4CE8F3EEFA927E46A66A52 /* Pods-MMTStoreKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55037F2A7B36F22261D5B0A363618202 /* ProductID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9D316E0847A42F9E9E5FAEBA318FF2 /* ProductID.swift */; };
-		5F9EFE6D7ADD06C194DDCAC0F62965D9 /* MMT15StoreKitToolUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1717A65AF51DE99A130E39C614D8A3D /* MMT15StoreKitToolUnit.swift */; };
-		60C0210CC47C3B543EE4A70A75BF10B2 /* MMT15StoreServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A79A06A5586A5D5B57EABB2892EB0 /* MMT15StoreServiceError.swift */; };
-		610B2D13DBFD404AF3479AF3B9904440 /* InAppProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732510329E3800CB09DCDB12DA2A82FF /* InAppProduct.swift */; };
-		65299D25BFD077557319ACCA4C35611B /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = B29F3D12D07DB12253DE0B7DCEAD2EA9 /* Localizable.strings */; };
+		58FA76DE9A5DE30BAA12AF5D24F30CFE /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 9EBA4BE3312AAABA1934FB5C99400DE6 /* Localizable.strings */; };
+		5900D0604DA06C9EDC94D84732CE1B65 /* MMT15StoreContext+Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB6D64D577E82A9F78504B59B737F5 /* MMT15StoreContext+Products.swift */; };
+		5ADD40988E73AE30A9234F8C41B1C8FF /* ProductID.swift in Sources */ = {isa = PBXBuildFile; fileRef = E384C497EE59F9345DE465F2D4DC9FEC /* ProductID.swift */; };
+		6BDCE404AD25A0BDB6B732541DD606C6 /* MMT15StoreKitToolUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F8E1467AAABBCFBC1DB69DC4541DAF /* MMT15StoreKitToolUnit.swift */; };
+		6CDF56241F822148C045E4B6FC0D1B3D /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C5DBA5124F9AA5F2CEE3B631B32818 /* String.swift */; };
+		6E3917593957B867A5B370AD0B40DBB7 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 46439B1B2616A3D0635427F913DB2480 /* Localizable.strings */; };
 		70AC8A6B7128CC063DD28BAE6854611C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A71B489ED684C9F56752C38BF66DF8 /* Foundation.framework */; };
-		742233E6FE0F09BEC537D3906145E374 /* MMT15StoreContext+CheckReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E61195D16467889D7D94A6AA13ABBDF /* MMT15StoreContext+CheckReceipt.swift */; };
-		7D010127C119E61AB239E256DF01D1C5 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 65AEF56DF9DF6EC3C817EECC7DE58401 /* Localizable.strings */; };
+		71B49809F257C1B2E5A2CAC4AFBED164 /* MMTStoreContextModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48FB6778D624A6844AB7E3634B1F5A6 /* MMTStoreContextModel.swift */; };
+		768B41ABEAD6AF7B3B80F94E5053B2E4 /* MMT15Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396AEA59CB1F072207DE056D76C2A254 /* MMT15Utils.swift */; };
+		7CC75418777B99AE94C72E2A73A62CD1 /* MMTStoreKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA921208D369EB9980FC9475A854B1 /* MMTStoreKit-dummy.m */; };
 		7ED283CC96DA7736542DFF753DBCBE8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A71B489ED684C9F56752C38BF66DF8 /* Foundation.framework */; };
-		8A3B74F2F883BF1B51DEC4C6F10EDF24 /* MMT14DownIAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06771B365C35A9BD562968CDA5319F /* MMT14DownIAPManager.swift */; };
-		90B3FCFB627509CFE7A0C4E34772A042 /* MMT15StoreContext+Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0A37EA65AE1872856306C338680F61 /* MMT15StoreContext+Products.swift */; };
+		811F43A878144C84D0BEDA15C709F661 /* MMT15ValidatableTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0E9D520E1DCC32837CD13D8371DF05 /* MMT15ValidatableTransaction.swift */; };
+		82EE04E93D37B747CFE961DA6EF7DDEB /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 546391A3F1F589E7FEF62B294AF3FE75 /* Localizable.strings */; };
+		888D9DED31239215FC6FC4F1BFC2C0D7 /* MMT15StoreServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7049D9028F14256D3C620547EE8546 /* MMT15StoreServiceError.swift */; };
+		8FA35B3F0838AE558EC4AAFCEF254534 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = ADB14257FF4C1C5C448A0F38EB57C207 /* Localizable.strings */; };
+		959D03EB94A2FF51087C66FDB542DFE1 /* MMT15StoreContext+CheckReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CA06CD1F737824929167D16867B390 /* MMT15StoreContext+CheckReceipt.swift */; };
 		9C447F846978B58AAFAA409ACB36B702 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A71B489ED684C9F56752C38BF66DF8 /* Foundation.framework */; };
 		9F06DDA818A96551F0CA10617C414E26 /* Pods-MMTStoreKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3157956C8D6E8700729B406A61E582C /* Pods-MMTStoreKit_Example-dummy.m */; };
-		AA06022AC9C4C4F39B515E172D0A6D78 /* MMTStoreKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9936B91561B28D091742CF2DA7483D96 /* MMTStoreKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAD422F7285A623F1D02558B389CF00A /* MMT14DownStoreKitToolUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E9CD4960C3FEE5A6BA884B2A22EC38 /* MMT14DownStoreKitToolUnit.swift */; };
+		A0ACC88FDA08D4C6BE4EF2B86794EC4A /* MMT15StoreContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6FD8CF372E514956E74E863BAF066B /* MMT15StoreContext.swift */; };
+		A27E99F7CC9ABA2472A2A9F4841D1AF2 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = E70361FC186DBACB3D8241A711803C18 /* Localizable.strings */; };
+		AA06022AC9C4C4F39B515E172D0A6D78 /* MMTStoreKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B57B89039119C1C4C8588CA1454AEDAB /* MMTStoreKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA0E93FE170BCE9855DDF03CFBC7D842 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 651F7425515906CABDF18467CD6A433C /* Localizable.strings */; };
 		B33EAB46901D4D4D4DC3F7C3F6ED8729 /* Pods-MMTStoreKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F20623CB2E2F048D691574E7D5FCE301 /* Pods-MMTStoreKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B694BF9EBEC618D608BB6C346AC24082 /* InAppProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383EC49A0F5683FEDF2F56A11AFC071D /* InAppProduct.swift */; };
 		CDDA281FD0B55596CF4F0CB64F579997 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21042E9373E06C1FF2749EEB2023EC3 /* StoreKit.framework */; };
-		CF789FEC4921C4889F52CE3B4CE01411 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D28A37337FEABAF2322B8F0CC63210F /* Product.swift */; };
-		E0B3B80DF67C32EDBE7E9DED4B4F5B46 /* MMTStoreKitTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6471C240DEC9FC35C2F813B4B95A2288 /* MMTStoreKitTool.swift */; };
+		D4C93D8E418BCA45E3F36CCB8DE89ADF /* MMTStoreKitTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2E500D3A813BD2699E6CBF6B0FE063 /* MMTStoreKitTool.swift */; };
 		E0E4E6AE07EC500C63DAFD4B3F9D4DD7 /* Pods-MMTStoreKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE04F84D8EA75489900BCC4B59F855A7 /* Pods-MMTStoreKit_Tests-dummy.m */; };
-		E3C302DF384A8700C0FA2D6F2D845025 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 5E35C7116EBF0157C4B86C2500AB8440 /* Localizable.strings */; };
-		E8A9DB8C7C06392467F978328330F107 /* MMT15Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282DEA0DB133047A98C748E670DF34F /* MMT15Utils.swift */; };
-		EBB4E572FC3A25B8E807A52C472E4968 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9498F677FC3E34083EF167D0CE6D09BE /* String.swift */; };
-		EE08EAC633E1244202C6A1A21F0E7007 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 516C1E0F68F3CF2C822EA42F263AD97F /* Localizable.strings */; };
-		F306FB63AA6D21A4E12A13B4D6767113 /* MMTStoreKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AD22D8BCB974926EA684DE7B635FBE /* MMTStoreKit-dummy.m */; };
-		FE5F414372B1858005AD79A197350E09 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = BFA4577B480A60942CF8AC4014C899A1 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		271E1B53EDF484AF16024B4DDB7202CF /* PBXContainerItemProxy */ = {
+		42540E68F745AA8DCC27452EF2CCEFA6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9FA54A9CD4D20C2ADC631F33DC055715;
 			remoteInfo = MMTStoreKit;
 		};
-		9F471EAA9AC53FE48D29853DBFC19C07 /* PBXContainerItemProxy */ = {
+		731A0A0EA40A9DD5BE9C659D7C0CAAD6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -61,61 +61,61 @@
 
 /* Begin PBXFileReference section */
 		027D2A8885780CB3EAFE1AEC2C51530B /* Pods-MMTStoreKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMTStoreKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		0E9D316E0847A42F9E9E5FAEBA318FF2 /* ProductID.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProductID.swift; sourceTree = "<group>"; };
+		0327105C400B58C62B0788D79C59E4AC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0D7049D9028F14256D3C620547EE8546 /* MMT15StoreServiceError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMT15StoreServiceError.swift; sourceTree = "<group>"; };
 		0EE1DB3F11A3CF5D4457D177138CDF0F /* Pods-MMTStoreKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMTStoreKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		125D754CFCB1C6BFA7320ADC440F1E6A /* Pods-MMTStoreKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MMTStoreKit_Example.modulemap"; sourceTree = "<group>"; };
-		14DEA6D4B5CCC3EE1D2D92F4CE7BA19A /* MMTStoreContextModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMTStoreContextModel.swift; path = MMTStoreKit/Classes/MMTStoreContextModel.swift; sourceTree = "<group>"; };
 		2405DEF1C5D9A8577053B081448E81F0 /* Pods_MMTStoreKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMTStoreKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D429B159F3187B71E54EFC98E9D8BE1 /* MMTStoreKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMTStoreKit.swift; path = MMTStoreKit/Classes/MMTStoreKit.swift; sourceTree = "<group>"; };
-		39C18515EF34F118053FB308EF9FADF1 /* MMTStoreKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MMTStoreKit-Info.plist"; sourceTree = "<group>"; };
-		3D28A37337FEABAF2322B8F0CC63210F /* Product.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
-		4282DEA0DB133047A98C748E670DF34F /* MMT15Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMT15Utils.swift; path = MMTStoreKit/Classes/MMT15Utils.swift; sourceTree = "<group>"; };
+		251EF84267268E385E02CF5ADE13A5A8 /* MMTStoreKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMTStoreKit-prefix.pch"; sourceTree = "<group>"; };
+		27CB1C3D670B29473143A1F6882EF483 /* MMTStoreKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMTStoreKit.debug.xcconfig; sourceTree = "<group>"; };
+		297FD2E1D59274EC8D0118D136B036E3 /* Product.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		383EC49A0F5683FEDF2F56A11AFC071D /* InAppProduct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InAppProduct.swift; sourceTree = "<group>"; };
+		396AEA59CB1F072207DE056D76C2A254 /* MMT15Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMT15Utils.swift; sourceTree = "<group>"; };
+		3C0D054E18FB1FB910B50A816340B09D /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		42BBB203899CF68E1D4F50AECCCCF5D3 /* Pods-MMTStoreKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MMTStoreKit_Tests.modulemap"; sourceTree = "<group>"; };
-		42E6F075A6CB9F59E9D5AEA85AB20344 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		46439B1B2616A3D0635427F913DB2480 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		49487637A36A831A900AD50F33AB0315 /* Pods-MMTStoreKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMTStoreKit_Example-Info.plist"; sourceTree = "<group>"; };
-		4D94D818F081322976D722D0A38B2356 /* MMT15ValidatableTransaction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMT15ValidatableTransaction.swift; path = MMTStoreKit/Classes/MMT15ValidatableTransaction.swift; sourceTree = "<group>"; };
+		4AE694BBE081FB88C1BE2D34ACBA70F3 /* MMTStoreKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMTStoreKit.release.xcconfig; sourceTree = "<group>"; };
+		4C62B8F50C23636DA29A69859E63C0D8 /* MMTStoreKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MMTStoreKit-Info.plist"; sourceTree = "<group>"; };
 		50CFA7AFE8BA9B8D062ADBB9B15147AB /* MMTStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMTStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		516C1E0F68F3CF2C822EA42F263AD97F /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
-		5E35C7116EBF0157C4B86C2500AB8440 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		6471C240DEC9FC35C2F813B4B95A2288 /* MMTStoreKitTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMTStoreKitTool.swift; path = MMTStoreKit/Classes/MMTStoreKitTool.swift; sourceTree = "<group>"; };
-		65AEF56DF9DF6EC3C817EECC7DE58401 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
-		6E34A4F052C26F5A7C24F54FCDB3B077 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		732510329E3800CB09DCDB12DA2A82FF /* InAppProduct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InAppProduct.swift; sourceTree = "<group>"; };
-		75E2EEE95DF5DFCCF66FC5E1F8C6EA8A /* MMTStoreKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMTStoreKit.debug.xcconfig; sourceTree = "<group>"; };
-		7E61195D16467889D7D94A6AA13ABBDF /* MMT15StoreContext+CheckReceipt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MMT15StoreContext+CheckReceipt.swift"; path = "MMTStoreKit/Classes/MMT15StoreContext+CheckReceipt.swift"; sourceTree = "<group>"; };
+		546391A3F1F589E7FEF62B294AF3FE75 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5B4EA5E39C207300D1DEB7D7FF11496C /* MMT14DownStoreKitToolUnit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMT14DownStoreKitToolUnit.swift; sourceTree = "<group>"; };
+		5E46030D4521DE029CF18733432BAFEB /* MMTStoreKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMTStoreKit.swift; path = MMTStoreKit/Classes/MMTStoreKit.swift; sourceTree = "<group>"; };
+		651F7425515906CABDF18467CD6A433C /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		75B661C9D5B07AF1DC4802BFB24E14BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		801516F93D4CE8F3EEFA927E46A66A52 /* Pods-MMTStoreKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMTStoreKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		81BA8347C45226504116B1C18F5F0C47 /* Pods_MMTStoreKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMTStoreKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		81E9CD4960C3FEE5A6BA884B2A22EC38 /* MMT14DownStoreKitToolUnit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMT14DownStoreKitToolUnit.swift; path = MMTStoreKit/Classes/MMT14DownStoreKitToolUnit.swift; sourceTree = "<group>"; };
 		8497AF245E63D7B335896F4DAF092613 /* Pods-MMTStoreKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMTStoreKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		85CCE8C22BB67BA92517809A4E6913C5 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		85C5DBA5124F9AA5F2CEE3B631B32818 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		87A71B489ED684C9F56752C38BF66DF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		93AD22D8BCB974926EA684DE7B635FBE /* MMTStoreKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMTStoreKit-dummy.m"; sourceTree = "<group>"; };
-		9498F677FC3E34083EF167D0CE6D09BE /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		9604F4A1AB54A9206B5D49D401D6D45A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9936B91561B28D091742CF2DA7483D96 /* MMTStoreKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMTStoreKit-umbrella.h"; sourceTree = "<group>"; };
+		88A638EE2BF94ADCE8B6C4B440CBCBAD /* MMT14DownIAPManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMT14DownIAPManager.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DEA921208D369EB9980FC9475A854B1 /* MMTStoreKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMTStoreKit-dummy.m"; sourceTree = "<group>"; };
+		9E2E500D3A813BD2699E6CBF6B0FE063 /* MMTStoreKitTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMTStoreKitTool.swift; path = MMTStoreKit/Classes/MMTStoreKitTool.swift; sourceTree = "<group>"; };
+		9EBA4BE3312AAABA1934FB5C99400DE6 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9F16BE4AF3AE2A006E03B407C4AFF02D /* Pods-MMTStoreKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMTStoreKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F469C18EEA5E90320C9DFC0D51CE92B /* Pods-MMTStoreKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMTStoreKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A15FF00FF3C2AB1B5900F7D29EC6D91B /* MMTStoreKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MMTStoreKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1E45CB2253161377D7A5CEB56D8F101 /* MMTStoreKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMTStoreKit.release.xcconfig; sourceTree = "<group>"; };
 		A3157956C8D6E8700729B406A61E582C /* Pods-MMTStoreKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMTStoreKit_Example-dummy.m"; sourceTree = "<group>"; };
 		A922126A024036F279B1EC1FDEC55F39 /* Pods-MMTStoreKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMTStoreKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B29F3D12D07DB12253DE0B7DCEAD2EA9 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		B62A383D66D8644EA9EE4F24A750CDFD /* MMT15StoreContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMT15StoreContext.swift; path = MMTStoreKit/Classes/MMT15StoreContext.swift; sourceTree = "<group>"; };
-		BD01C9D6B3EEE14492F71AAE7FDCEAEF /* MMTStoreKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMTStoreKit-prefix.pch"; sourceTree = "<group>"; };
-		BFA4577B480A60942CF8AC4014C899A1 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A96D0486D9CD375CF8ECCC245D870365 /* MMTStoreKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MMTStoreKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADB14257FF4C1C5C448A0F38EB57C207 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AF9F033C787F49932C8C7197D3842B08 /* MMTStoreKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMTStoreKit.modulemap; sourceTree = "<group>"; };
+		B0AB6D64D577E82A9F78504B59B737F5 /* MMT15StoreContext+Products.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MMT15StoreContext+Products.swift"; sourceTree = "<group>"; };
+		B57B89039119C1C4C8588CA1454AEDAB /* MMTStoreKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMTStoreKit-umbrella.h"; sourceTree = "<group>"; };
 		C21042E9373E06C1FF2749EEB2023EC3 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
 		C697B5CE7622711BAF2710CBE2D100A9 /* Pods-MMTStoreKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMTStoreKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CA06771B365C35A9BD562968CDA5319F /* MMT14DownIAPManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMT14DownIAPManager.swift; path = MMTStoreKit/Classes/MMT14DownIAPManager.swift; sourceTree = "<group>"; };
-		CA0A37EA65AE1872856306C338680F61 /* MMT15StoreContext+Products.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MMT15StoreContext+Products.swift"; path = "MMTStoreKit/Classes/MMT15StoreContext+Products.swift"; sourceTree = "<group>"; };
-		D19896351448E36A3A3AE24EF62EB72F /* MMTStoreKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMTStoreKit.modulemap; sourceTree = "<group>"; };
+		CE0E9D520E1DCC32837CD13D8371DF05 /* MMT15ValidatableTransaction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMT15ValidatableTransaction.swift; sourceTree = "<group>"; };
 		D2815FB6472D0546324760EA4DB7D40B /* Pods-MMTStoreKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMTStoreKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D3F8E1467AAABBCFBC1DB69DC4541DAF /* MMT15StoreKitToolUnit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMT15StoreKitToolUnit.swift; sourceTree = "<group>"; };
+		E2CA06CD1F737824929167D16867B390 /* MMT15StoreContext+CheckReceipt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MMT15StoreContext+CheckReceipt.swift"; sourceTree = "<group>"; };
+		E384C497EE59F9345DE465F2D4DC9FEC /* ProductID.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProductID.swift; sourceTree = "<group>"; };
 		E60756879B57D1DA6DA79B60C479DF2F /* Pods-MMTStoreKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMTStoreKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EC5A79A06A5586A5D5B57EABB2892EB0 /* MMT15StoreServiceError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMT15StoreServiceError.swift; path = MMTStoreKit/Classes/MMT15StoreServiceError.swift; sourceTree = "<group>"; };
-		F1717A65AF51DE99A130E39C614D8A3D /* MMT15StoreKitToolUnit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMT15StoreKitToolUnit.swift; path = MMTStoreKit/Classes/MMT15StoreKitToolUnit.swift; sourceTree = "<group>"; };
+		E70361FC186DBACB3D8241A711803C18 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F20623CB2E2F048D691574E7D5FCE301 /* Pods-MMTStoreKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMTStoreKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F48FB6778D624A6844AB7E3634B1F5A6 /* MMTStoreContextModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMTStoreContextModel.swift; path = MMTStoreKit/Classes/MMTStoreContextModel.swift; sourceTree = "<group>"; };
 		F96C27C0D356121B88DE57E89C03EB4E /* Pods-MMTStoreKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMTStoreKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FE04F84D8EA75489900BCC4B59F855A7 /* Pods-MMTStoreKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMTStoreKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		FF6FD8CF372E514956E74E863BAF066B /* MMT15StoreContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMT15StoreContext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,13 +147,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		078F104B6A42FB4D2B61A7CD06300F85 /* Resources */ = {
+		013C1E9CDA572C06ED224D59D210AE5D /* MMT15Up */ = {
 			isa = PBXGroup;
 			children = (
-				91C2742F9D5D1E45C031EC759F3BDC46 /* Localizable.strings */,
+				FF6FD8CF372E514956E74E863BAF066B /* MMT15StoreContext.swift */,
+				E2CA06CD1F737824929167D16867B390 /* MMT15StoreContext+CheckReceipt.swift */,
+				B0AB6D64D577E82A9F78504B59B737F5 /* MMT15StoreContext+Products.swift */,
+				D3F8E1467AAABBCFBC1DB69DC4541DAF /* MMT15StoreKitToolUnit.swift */,
+				0D7049D9028F14256D3C620547EE8546 /* MMT15StoreServiceError.swift */,
+				396AEA59CB1F072207DE056D76C2A254 /* MMT15Utils.swift */,
+				CE0E9D520E1DCC32837CD13D8371DF05 /* MMT15ValidatableTransaction.swift */,
 			);
-			name = Resources;
-			path = MMTStoreKit/Classes/Resources;
+			name = MMT15Up;
+			path = MMTStoreKit/Classes/MMT15Up;
 			sourceTree = "<group>";
 		};
 		0F5BAD9F80E0BA435FDC350EBCF5FF75 /* Pods-MMTStoreKit_Tests */ = {
@@ -180,19 +186,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		45D43456BD13C73E32B114A6011BB6E7 /* Support Files */ = {
+		196C73FBEC05F7AB9F0F32B94FF3EEDB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D19896351448E36A3A3AE24EF62EB72F /* MMTStoreKit.modulemap */,
-				93AD22D8BCB974926EA684DE7B635FBE /* MMTStoreKit-dummy.m */,
-				39C18515EF34F118053FB308EF9FADF1 /* MMTStoreKit-Info.plist */,
-				BD01C9D6B3EEE14492F71AAE7FDCEAEF /* MMTStoreKit-prefix.pch */,
-				9936B91561B28D091742CF2DA7483D96 /* MMTStoreKit-umbrella.h */,
-				75E2EEE95DF5DFCCF66FC5E1F8C6EA8A /* MMTStoreKit.debug.xcconfig */,
-				A1E45CB2253161377D7A5CEB56D8F101 /* MMTStoreKit.release.xcconfig */,
+				383EC49A0F5683FEDF2F56A11AFC071D /* InAppProduct.swift */,
+				297FD2E1D59274EC8D0118D136B036E3 /* Product.swift */,
+				E384C497EE59F9345DE465F2D4DC9FEC /* ProductID.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MMTStoreKit";
+			name = Products;
+			path = MMTStoreKit/Classes/Products;
 			sourceTree = "<group>";
 		};
 		4B93E88A02808684BBCE84E5DAC562BD /* Targets Support Files */ = {
@@ -204,21 +206,39 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9EAE88A3D7DED4ACF8E8CDCEBDF24BCC /* Products */ = {
+		7C2063B57F088C627124095B9798EAA3 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				732510329E3800CB09DCDB12DA2A82FF /* InAppProduct.swift */,
-				3D28A37337FEABAF2322B8F0CC63210F /* Product.swift */,
-				0E9D316E0847A42F9E9E5FAEBA318FF2 /* ProductID.swift */,
+				75B661C9D5B07AF1DC4802BFB24E14BF /* LICENSE */,
+				A96D0486D9CD375CF8ECCC245D870365 /* MMTStoreKit.podspec */,
+				0327105C400B58C62B0788D79C59E4AC /* README.md */,
 			);
-			name = Products;
-			path = MMTStoreKit/Classes/Products;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		A385B61A91E01CFE986D7C759EC4530C /* Extensions */ = {
+		89319A7BA7EC15EA0A4694EE98DFC578 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9498F677FC3E34083EF167D0CE6D09BE /* String.swift */,
+				2FFCA9EB6D82878C23E8B4C8C98C967C /* Localizable.strings */,
+			);
+			name = Resources;
+			path = MMTStoreKit/Classes/Resources;
+			sourceTree = "<group>";
+		};
+		B2C2FB5E190802AA4383BF40C3B1DF61 /* MMT14Down */ = {
+			isa = PBXGroup;
+			children = (
+				88A638EE2BF94ADCE8B6C4B440CBCBAD /* MMT14DownIAPManager.swift */,
+				5B4EA5E39C207300D1DEB7D7FF11496C /* MMT14DownStoreKitToolUnit.swift */,
+			);
+			name = MMT14Down;
+			path = MMTStoreKit/Classes/MMT14Down;
+			sourceTree = "<group>";
+		};
+		C307076EFD3B946F0FAEB32895F34D05 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				85C5DBA5124F9AA5F2CEE3B631B32818 /* String.swift */,
 			);
 			name = Extensions;
 			path = MMTStoreKit/Classes/Extensions;
@@ -238,7 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				EC5AA588A8CCD787BE826D60B31406C6 /* Development Pods */,
+				F039749D3063C1462F08BBB4451A0412 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				CEA14BC1A527DC41E3A53E56D250BE11 /* Products */,
 				4B93E88A02808684BBCE84E5DAC562BD /* Targets Support Files */,
@@ -254,47 +274,37 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E2E4EA381028D1879B5C9421B5D88965 /* MMTStoreKit */ = {
+		E296B5877EF9807E380477918526DA17 /* MMTStoreKit */ = {
 			isa = PBXGroup;
 			children = (
-				CA06771B365C35A9BD562968CDA5319F /* MMT14DownIAPManager.swift */,
-				81E9CD4960C3FEE5A6BA884B2A22EC38 /* MMT14DownStoreKitToolUnit.swift */,
-				B62A383D66D8644EA9EE4F24A750CDFD /* MMT15StoreContext.swift */,
-				7E61195D16467889D7D94A6AA13ABBDF /* MMT15StoreContext+CheckReceipt.swift */,
-				CA0A37EA65AE1872856306C338680F61 /* MMT15StoreContext+Products.swift */,
-				F1717A65AF51DE99A130E39C614D8A3D /* MMT15StoreKitToolUnit.swift */,
-				EC5A79A06A5586A5D5B57EABB2892EB0 /* MMT15StoreServiceError.swift */,
-				4282DEA0DB133047A98C748E670DF34F /* MMT15Utils.swift */,
-				4D94D818F081322976D722D0A38B2356 /* MMT15ValidatableTransaction.swift */,
-				14DEA6D4B5CCC3EE1D2D92F4CE7BA19A /* MMTStoreContextModel.swift */,
-				2D429B159F3187B71E54EFC98E9D8BE1 /* MMTStoreKit.swift */,
-				6471C240DEC9FC35C2F813B4B95A2288 /* MMTStoreKitTool.swift */,
-				A385B61A91E01CFE986D7C759EC4530C /* Extensions */,
-				E2FFC4A678C08A9CA4548DE273A12DC1 /* Pod */,
-				9EAE88A3D7DED4ACF8E8CDCEBDF24BCC /* Products */,
-				078F104B6A42FB4D2B61A7CD06300F85 /* Resources */,
-				45D43456BD13C73E32B114A6011BB6E7 /* Support Files */,
+				F48FB6778D624A6844AB7E3634B1F5A6 /* MMTStoreContextModel.swift */,
+				5E46030D4521DE029CF18733432BAFEB /* MMTStoreKit.swift */,
+				9E2E500D3A813BD2699E6CBF6B0FE063 /* MMTStoreKitTool.swift */,
+				C307076EFD3B946F0FAEB32895F34D05 /* Extensions */,
+				B2C2FB5E190802AA4383BF40C3B1DF61 /* MMT14Down */,
+				013C1E9CDA572C06ED224D59D210AE5D /* MMT15Up */,
+				7C2063B57F088C627124095B9798EAA3 /* Pod */,
+				196C73FBEC05F7AB9F0F32B94FF3EEDB /* Products */,
+				89319A7BA7EC15EA0A4694EE98DFC578 /* Resources */,
+				E8FD85263F8923B61A05DD2DDD4D7372 /* Support Files */,
 			);
 			name = MMTStoreKit;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		E2FFC4A678C08A9CA4548DE273A12DC1 /* Pod */ = {
+		E8FD85263F8923B61A05DD2DDD4D7372 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6E34A4F052C26F5A7C24F54FCDB3B077 /* LICENSE */,
-				A15FF00FF3C2AB1B5900F7D29EC6D91B /* MMTStoreKit.podspec */,
-				9604F4A1AB54A9206B5D49D401D6D45A /* README.md */,
+				AF9F033C787F49932C8C7197D3842B08 /* MMTStoreKit.modulemap */,
+				9DEA921208D369EB9980FC9475A854B1 /* MMTStoreKit-dummy.m */,
+				4C62B8F50C23636DA29A69859E63C0D8 /* MMTStoreKit-Info.plist */,
+				251EF84267268E385E02CF5ADE13A5A8 /* MMTStoreKit-prefix.pch */,
+				B57B89039119C1C4C8588CA1454AEDAB /* MMTStoreKit-umbrella.h */,
+				27CB1C3D670B29473143A1F6882EF483 /* MMTStoreKit.debug.xcconfig */,
+				4AE694BBE081FB88C1BE2D34ACBA70F3 /* MMTStoreKit.release.xcconfig */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		EC5AA588A8CCD787BE826D60B31406C6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E2E4EA381028D1879B5C9421B5D88965 /* MMTStoreKit */,
-			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MMTStoreKit";
 			sourceTree = "<group>";
 		};
 		ECA5B6CDD228CF2BF2054BFD772F0BC5 /* Pods-MMTStoreKit_Example */ = {
@@ -312,6 +322,14 @@
 			);
 			name = "Pods-MMTStoreKit_Example";
 			path = "Target Support Files/Pods-MMTStoreKit_Example";
+			sourceTree = "<group>";
+		};
+		F039749D3063C1462F08BBB4451A0412 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E296B5877EF9807E380477918526DA17 /* MMTStoreKit */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,7 +374,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				DFE77888E9E75376C81B553F69036BE8 /* PBXTargetDependency */,
+				E82D9D4C007FE02B3EECC4FD3F098941 /* PBXTargetDependency */,
 			);
 			name = "Pods-MMTStoreKit_Example";
 			productName = Pods_MMTStoreKit_Example;
@@ -368,7 +386,7 @@
 			buildConfigurationList = 46CF3BC0CF9FC49CBBF4093F18387C33 /* Build configuration list for PBXNativeTarget "MMTStoreKit" */;
 			buildPhases = (
 				86FEFBAF572C48C234EBE8FECF5B1B21 /* Headers */,
-				7F8BC7B47266C3AF8C8F771FD774D713 /* Sources */,
+				22DC09C1F511496A7D10E78DE53467D6 /* Sources */,
 				D427B4DBFDD75A826B8CCDAFD0D3D098 /* Frameworks */,
 				240CA13E60647A0BCD14A709A81E2769 /* Resources */,
 			);
@@ -393,7 +411,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				DCAC5AC3E9122AC72B63CD37B741E68C /* PBXTargetDependency */,
+				31D6D4D3C09A36C3541B17165A825611 /* PBXTargetDependency */,
 			);
 			name = "Pods-MMTStoreKit_Tests";
 			productName = Pods_MMTStoreKit_Tests;
@@ -460,34 +478,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7F8BC7B47266C3AF8C8F771FD774D713 /* Sources */ = {
+		22DC09C1F511496A7D10E78DE53467D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				610B2D13DBFD404AF3479AF3B9904440 /* InAppProduct.swift in Sources */,
-				7D010127C119E61AB239E256DF01D1C5 /* Localizable.strings in Sources */,
-				E3C302DF384A8700C0FA2D6F2D845025 /* Localizable.strings in Sources */,
-				FE5F414372B1858005AD79A197350E09 /* Localizable.strings in Sources */,
-				EE08EAC633E1244202C6A1A21F0E7007 /* Localizable.strings in Sources */,
-				20092ED1A2F51BD3922993E1C2A8EC1B /* Localizable.strings in Sources */,
-				380CFA1C0381C12001E2692D7D06E6BF /* Localizable.strings in Sources */,
-				65299D25BFD077557319ACCA4C35611B /* Localizable.strings in Sources */,
-				8A3B74F2F883BF1B51DEC4C6F10EDF24 /* MMT14DownIAPManager.swift in Sources */,
-				AAD422F7285A623F1D02558B389CF00A /* MMT14DownStoreKitToolUnit.swift in Sources */,
-				09B1ED336FB2789FCC6853DB1A5E3938 /* MMT15StoreContext.swift in Sources */,
-				742233E6FE0F09BEC537D3906145E374 /* MMT15StoreContext+CheckReceipt.swift in Sources */,
-				90B3FCFB627509CFE7A0C4E34772A042 /* MMT15StoreContext+Products.swift in Sources */,
-				5F9EFE6D7ADD06C194DDCAC0F62965D9 /* MMT15StoreKitToolUnit.swift in Sources */,
-				60C0210CC47C3B543EE4A70A75BF10B2 /* MMT15StoreServiceError.swift in Sources */,
-				E8A9DB8C7C06392467F978328330F107 /* MMT15Utils.swift in Sources */,
-				130477324ADA476D576209AE22644B1C /* MMT15ValidatableTransaction.swift in Sources */,
-				1448D8201C5802A50A1DD163CFD39789 /* MMTStoreContextModel.swift in Sources */,
-				3A990DDEF41D77110D3A3F9C818C0B25 /* MMTStoreKit.swift in Sources */,
-				F306FB63AA6D21A4E12A13B4D6767113 /* MMTStoreKit-dummy.m in Sources */,
-				E0B3B80DF67C32EDBE7E9DED4B4F5B46 /* MMTStoreKitTool.swift in Sources */,
-				CF789FEC4921C4889F52CE3B4CE01411 /* Product.swift in Sources */,
-				55037F2A7B36F22261D5B0A363618202 /* ProductID.swift in Sources */,
-				EBB4E572FC3A25B8E807A52C472E4968 /* String.swift in Sources */,
+				B694BF9EBEC618D608BB6C346AC24082 /* InAppProduct.swift in Sources */,
+				58FA76DE9A5DE30BAA12AF5D24F30CFE /* Localizable.strings in Sources */,
+				82EE04E93D37B747CFE961DA6EF7DDEB /* Localizable.strings in Sources */,
+				AA0E93FE170BCE9855DDF03CFBC7D842 /* Localizable.strings in Sources */,
+				8FA35B3F0838AE558EC4AAFCEF254534 /* Localizable.strings in Sources */,
+				6E3917593957B867A5B370AD0B40DBB7 /* Localizable.strings in Sources */,
+				A27E99F7CC9ABA2472A2A9F4841D1AF2 /* Localizable.strings in Sources */,
+				2909E17ADC4D9F059FA8412F6E59777E /* Localizable.strings in Sources */,
+				01FCAACFF94019AC97D5B91E7D514CA6 /* MMT14DownIAPManager.swift in Sources */,
+				13E4BAB6AEC8E53B80B42E5DA472D199 /* MMT14DownStoreKitToolUnit.swift in Sources */,
+				A0ACC88FDA08D4C6BE4EF2B86794EC4A /* MMT15StoreContext.swift in Sources */,
+				959D03EB94A2FF51087C66FDB542DFE1 /* MMT15StoreContext+CheckReceipt.swift in Sources */,
+				5900D0604DA06C9EDC94D84732CE1B65 /* MMT15StoreContext+Products.swift in Sources */,
+				6BDCE404AD25A0BDB6B732541DD606C6 /* MMT15StoreKitToolUnit.swift in Sources */,
+				888D9DED31239215FC6FC4F1BFC2C0D7 /* MMT15StoreServiceError.swift in Sources */,
+				768B41ABEAD6AF7B3B80F94E5053B2E4 /* MMT15Utils.swift in Sources */,
+				811F43A878144C84D0BEDA15C709F661 /* MMT15ValidatableTransaction.swift in Sources */,
+				71B49809F257C1B2E5A2CAC4AFBED164 /* MMTStoreContextModel.swift in Sources */,
+				13D9E7EF46CAE48F1A0B27CC28E65A72 /* MMTStoreKit.swift in Sources */,
+				7CC75418777B99AE94C72E2A73A62CD1 /* MMTStoreKit-dummy.m in Sources */,
+				D4C93D8E418BCA45E3F36CCB8DE89ADF /* MMTStoreKitTool.swift in Sources */,
+				371E003BDBE33B84CBAA8009E485D2AE /* Product.swift in Sources */,
+				5ADD40988E73AE30A9234F8C41B1C8FF /* ProductID.swift in Sources */,
+				6CDF56241F822148C045E4B6FC0D1B3D /* String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,31 +528,31 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DCAC5AC3E9122AC72B63CD37B741E68C /* PBXTargetDependency */ = {
+		31D6D4D3C09A36C3541B17165A825611 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MMTStoreKit_Example";
 			target = 4E872256470F45116885F0ED498D6EF8 /* Pods-MMTStoreKit_Example */;
-			targetProxy = 9F471EAA9AC53FE48D29853DBFC19C07 /* PBXContainerItemProxy */;
+			targetProxy = 731A0A0EA40A9DD5BE9C659D7C0CAAD6 /* PBXContainerItemProxy */;
 		};
-		DFE77888E9E75376C81B553F69036BE8 /* PBXTargetDependency */ = {
+		E82D9D4C007FE02B3EECC4FD3F098941 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MMTStoreKit;
 			target = 9FA54A9CD4D20C2ADC631F33DC055715 /* MMTStoreKit */;
-			targetProxy = 271E1B53EDF484AF16024B4DDB7202CF /* PBXContainerItemProxy */;
+			targetProxy = 42540E68F745AA8DCC27452EF2CCEFA6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		91C2742F9D5D1E45C031EC759F3BDC46 /* Localizable.strings */ = {
+		2FFCA9EB6D82878C23E8B4C8C98C967C /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				65AEF56DF9DF6EC3C817EECC7DE58401 /* Localizable.strings */,
-				5E35C7116EBF0157C4B86C2500AB8440 /* Localizable.strings */,
-				BFA4577B480A60942CF8AC4014C899A1 /* Localizable.strings */,
-				516C1E0F68F3CF2C822EA42F263AD97F /* Localizable.strings */,
-				42E6F075A6CB9F59E9D5AEA85AB20344 /* Localizable.strings */,
-				85CCE8C22BB67BA92517809A4E6913C5 /* Localizable.strings */,
-				B29F3D12D07DB12253DE0B7DCEAD2EA9 /* Localizable.strings */,
+				9EBA4BE3312AAABA1934FB5C99400DE6 /* Localizable.strings */,
+				546391A3F1F589E7FEF62B294AF3FE75 /* Localizable.strings */,
+				651F7425515906CABDF18467CD6A433C /* Localizable.strings */,
+				ADB14257FF4C1C5C448A0F38EB57C207 /* Localizable.strings */,
+				46439B1B2616A3D0635427F913DB2480 /* Localizable.strings */,
+				E70361FC186DBACB3D8241A711803C18 /* Localizable.strings */,
+				3C0D054E18FB1FB910B50A816340B09D /* Localizable.strings */,
 			);
 			name = Localizable.strings;
 			path = .;
@@ -618,7 +636,7 @@
 		};
 		554A88921631E46CFB83E7D7E7E5AE8E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1E45CB2253161377D7A5CEB56D8F101 /* MMTStoreKit.release.xcconfig */;
+			baseConfigurationReference = 4AE694BBE081FB88C1BE2D34ACBA70F3 /* MMTStoreKit.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -794,7 +812,7 @@
 		};
 		8E8700B22DBE8A12E2D252D582E28140 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75E2EEE95DF5DFCCF66FC5E1F8C6EA8A /* MMTStoreKit.debug.xcconfig */;
+			baseConfigurationReference = 27CB1C3D670B29473143A1F6882EF483 /* MMTStoreKit.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;

@@ -1,0 +1,22 @@
+//
+//  Localizable.strings
+//  StoreKitHelper
+//
+//  Created by 王楚江 on 2025/3/5.
+//
+
+"terms_of_service" = "Terms of Service";
+"privacy_policy" = "Privacy Policy";
+
+"restore_purchases" = "Restore Purchases";
+"restore_purchases_failed" = "Restore Purchases Failed:";
+"no_purchase_available" = "No purchases to restore";
+
+"store_unavailable" = "Store Unavailable";
+"no_in_app_purchases" = "No in-app purchases are available in the current storefront.";
+"network_connection_check" = "Check your network connection. If it's fine but the store is still unavailable, try [restarting](restartapp) the app.";
+
+"purchase" = "Purchase";
+"purchase_failed" = "Purchase Failed";
+
+"unlock_premium" = "Unlock Premium";

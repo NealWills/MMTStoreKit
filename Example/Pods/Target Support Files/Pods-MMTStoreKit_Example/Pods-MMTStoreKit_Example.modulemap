@@ -1,0 +1,6 @@
+framework module Pods_MMTStoreKit_Example {
+  umbrella header "Pods-MMTStoreKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

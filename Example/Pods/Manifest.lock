@@ -1,0 +1,16 @@
+PODS:
+  - MMTStoreKit (0.1.0)
+
+DEPENDENCIES:
+  - MMTStoreKit (from `../`)
+
+EXTERNAL SOURCES:
+  MMTStoreKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MMTStoreKit: 77852181d6ac3ddcd1cde47de9e6ddc1e1d712ed
+
+PODFILE CHECKSUM: a19647c4a52e89be67477d5872123c8d328d8444
+
+COCOAPODS: 1.16.2

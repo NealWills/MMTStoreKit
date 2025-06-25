@@ -24,7 +24,7 @@ public class MMT14DownIAPManager: NSObject {
         
         SKPaymentQueue.default().add(self)
         
-        NotificationCenter.default.addObserver(self, selector: #selector(MMT14DownIAPManager.savePurchasedItems), name: NSNotification.Name.UIApplicationDidEnterBackground, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(MMT14DownIAPManager.savePurchasedItems), name: UIApplication.didEnterBackgroundNotification, object: nil)
     }
     
     public func canMakePayments() -> Bool {
@@ -180,27 +180,15 @@ extension MMT14DownIAPManager: SKPaymentTransactionObserver {
 
 extension MMT14DownIAPManager { // Store file managment
     
-    func purchasedItemsURL() -> URL {
-        let documentsDirectory = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.cachesDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).first!
-        return URL(fileURLWithPath: documentsDirectory).appendingPathComponent("purchased.plist")
-    }
-    
-    func purchasedItemsFilePath() -> String {
-        return purchasedItemsURL().path
-    }
-    
     func restorePurchasedItems()  {
-        if let items = NSKeyedUnarchiver.unarchiveObject(withFile: purchasedItemsFilePath()) as? Array<String> {
-            purchasedProductIds.append(contentsOf: items)
-        }
+        let str = UserDefaults.standard.value(forKey: "com.mmt.ipaTool.14less.purchased") as? String ?? ""
+        let list = str.components(separatedBy: "_")
+        purchasedProductIds.append(contentsOf: list)
     }
     
     @objc func savePurchasedItems() {
-        let data = NSKeyedArchiver.archivedData(withRootObject: purchasedProductIds)
-        do {
-            try data.write(to: purchasedItemsURL(), options: [.atomicWrite, .completeFileProtection])
-        } catch {
-            print("Failed to save purchased items: \(error)")
-        }
+        let str = purchasedProductIds.joined(separator: "_")
+        UserDefaults.standard.set("com.mmt.ipaTool.14less.purchased", forKey: str)
+        UserDefaults.standard.synchronize()
     }
 }

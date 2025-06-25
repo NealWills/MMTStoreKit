@@ -1,5 +1,5 @@
 PODS:
-  - MMTStoreKit (0.1.0)
+  - MMTStoreKit (0.6.0)
 
 DEPENDENCIES:
   - MMTStoreKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MMTStoreKit: 77852181d6ac3ddcd1cde47de9e6ddc1e1d712ed
+  MMTStoreKit: a20329209bff9ff12f5e3ebfca073746589175a5
 
 PODFILE CHECKSUM: a19647c4a52e89be67477d5872123c8d328d8444
 

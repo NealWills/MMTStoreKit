@@ -8,7 +8,7 @@
 import Foundation
 
 
-class MMT15StoreContextModel: NSObject {
+public class MMTStoreContextModel: NSObject {
     
     /// The raw JSON representation of the product.
     public var jsonRepresentation: Data?
@@ -34,7 +34,7 @@ class MMT15StoreContextModel: NSObject {
     /// Whether the product is available for family sharing.
     public var isFamilyShareable: Bool?
     
-    override var description: String {
+    public override var description: String {
         get {
             var title = ""
             title = title + "id: " + (id ?? "null")  + " \n"

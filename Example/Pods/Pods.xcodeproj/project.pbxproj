@@ -7,111 +7,115 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		004AC3DE9529F5B4774173A8CB600F79 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 1CD288E91DD5C8C7BBEA41D0C050905B /* Localizable.strings */; };
-		0BB9590F769D02E453A14953C45B611D /* MMT15ValidatableTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C56467B96CF7FC630E9757A333B371D /* MMT15ValidatableTransaction.swift */; };
-		13D30D448E63CD5DA895F4BCB308B129 /* MMT15StoreKitToolUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A239100FB564039A446D6974454D6D25 /* MMT15StoreKitToolUnit.swift */; };
-		1C584316AA614109121F2393B0052EAC /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 5B3B0A10B3405AD972E02A7CDB1FAE29 /* Localizable.strings */; };
-		1F5E96CA90D98E494D42159E553D3065 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52428A8F7E1215170A27CD4E6B5558F /* String.swift */; };
-		21622DE582F68C39FA4D459CE2A95CB8 /* ProductID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D4CFA7FEDADD34D6EC9111C63E57FA /* ProductID.swift */; };
-		2DFA590C463FA9F54757B96AF182239C /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 5DB5CD93E24FAFB23D3D79C7FD128E3F /* Localizable.strings */; };
-		30091F9EAE40B6CE0590E329C8B20FBA /* MMT15StoreContext+Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB72338350CBB9F9DF72DDF390B78B4 /* MMT15StoreContext+Products.swift */; };
-		30FFD44B8AC0F5B0952B4E4888FD7450 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = FF9AFD7E82EB6F807619D2F982C123BE /* Localizable.strings */; };
+		09B1ED336FB2789FCC6853DB1A5E3938 /* MMT15StoreContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62A383D66D8644EA9EE4F24A750CDFD /* MMT15StoreContext.swift */; };
+		130477324ADA476D576209AE22644B1C /* MMT15ValidatableTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D94D818F081322976D722D0A38B2356 /* MMT15ValidatableTransaction.swift */; };
+		1448D8201C5802A50A1DD163CFD39789 /* MMTStoreContextModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DEA6D4B5CCC3EE1D2D92F4CE7BA19A /* MMTStoreContextModel.swift */; };
+		20092ED1A2F51BD3922993E1C2A8EC1B /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 42E6F075A6CB9F59E9D5AEA85AB20344 /* Localizable.strings */; };
+		380CFA1C0381C12001E2692D7D06E6BF /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 85CCE8C22BB67BA92517809A4E6913C5 /* Localizable.strings */; };
+		3A990DDEF41D77110D3A3F9C818C0B25 /* MMTStoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D429B159F3187B71E54EFC98E9D8BE1 /* MMTStoreKit.swift */; };
 		4686705C4B08A07CC24762C2990A2FF0 /* Pods-MMTStoreKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 801516F93D4CE8F3EEFA927E46A66A52 /* Pods-MMTStoreKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62AAF93108020D9DF77D241DF4347E9F /* MMT15StoreServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84D4D76C5C964AF7DA9EB77B31913A8 /* MMT15StoreServiceError.swift */; };
-		677D3257B374BD447EDED041A9B76DCD /* MMT15StoreContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC1CF6FB6F10D933B567A4CE40E5214 /* MMT15StoreContext.swift */; };
-		6B56E41B06E17231EE3E4A46B9B187AA /* InAppProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D694C491B9C8592DA03D24B950FEA6 /* InAppProduct.swift */; };
-		70AC8A6B7128CC063DD28BAE6854611C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		7125FBF8A6AAFBC56765D76882473881 /* MMT14DownStoreKitToolUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6771E883C789A56CEBBAF680A3DD9E5E /* MMT14DownStoreKitToolUnit.swift */; };
-		724525DF30E8844ABD1234E29333C8F1 /* MMT14DownIAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF61D1D3A26CAF6B4781DE92D37F922E /* MMT14DownIAPManager.swift */; };
-		7ED283CC96DA7736542DFF753DBCBE8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		8459CD93D21F65972D0C57D43AA3010B /* MMTStoreKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 349AEF42B0D2AA7678B7739C42722D2A /* MMTStoreKit-dummy.m */; };
-		94F04F833BCC8805EBE9FC3FB8B9E179 /* MMT15StoreContext+CheckReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5287590C382F70610AB2096A7714865 /* MMT15StoreContext+CheckReceipt.swift */; };
-		9A3BDFF2956F24B2E7A479CC6DBF6971 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB3781CEA0E988207BF2C2ECE901ECC /* Product.swift */; };
+		55037F2A7B36F22261D5B0A363618202 /* ProductID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9D316E0847A42F9E9E5FAEBA318FF2 /* ProductID.swift */; };
+		5F9EFE6D7ADD06C194DDCAC0F62965D9 /* MMT15StoreKitToolUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1717A65AF51DE99A130E39C614D8A3D /* MMT15StoreKitToolUnit.swift */; };
+		60C0210CC47C3B543EE4A70A75BF10B2 /* MMT15StoreServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5A79A06A5586A5D5B57EABB2892EB0 /* MMT15StoreServiceError.swift */; };
+		610B2D13DBFD404AF3479AF3B9904440 /* InAppProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732510329E3800CB09DCDB12DA2A82FF /* InAppProduct.swift */; };
+		65299D25BFD077557319ACCA4C35611B /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = B29F3D12D07DB12253DE0B7DCEAD2EA9 /* Localizable.strings */; };
+		70AC8A6B7128CC063DD28BAE6854611C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A71B489ED684C9F56752C38BF66DF8 /* Foundation.framework */; };
+		742233E6FE0F09BEC537D3906145E374 /* MMT15StoreContext+CheckReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E61195D16467889D7D94A6AA13ABBDF /* MMT15StoreContext+CheckReceipt.swift */; };
+		7D010127C119E61AB239E256DF01D1C5 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 65AEF56DF9DF6EC3C817EECC7DE58401 /* Localizable.strings */; };
+		7ED283CC96DA7736542DFF753DBCBE8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A71B489ED684C9F56752C38BF66DF8 /* Foundation.framework */; };
+		8A3B74F2F883BF1B51DEC4C6F10EDF24 /* MMT14DownIAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06771B365C35A9BD562968CDA5319F /* MMT14DownIAPManager.swift */; };
+		90B3FCFB627509CFE7A0C4E34772A042 /* MMT15StoreContext+Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0A37EA65AE1872856306C338680F61 /* MMT15StoreContext+Products.swift */; };
+		9C447F846978B58AAFAA409ACB36B702 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A71B489ED684C9F56752C38BF66DF8 /* Foundation.framework */; };
 		9F06DDA818A96551F0CA10617C414E26 /* Pods-MMTStoreKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3157956C8D6E8700729B406A61E582C /* Pods-MMTStoreKit_Example-dummy.m */; };
-		A8FACDF8D85D71FF7E9A367B0D17B043 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		AAB27E98CD20D1498DC472613EC8E98F /* MMTStoreKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 702793FF3716BEBD0D3CD0C525E6D655 /* MMTStoreKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF3326F5335A19B8D66B42A4333F02D6 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = A584AA9A3B4B53744DEA1F286EE46839 /* Localizable.strings */; };
+		AA06022AC9C4C4F39B515E172D0A6D78 /* MMTStoreKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9936B91561B28D091742CF2DA7483D96 /* MMTStoreKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAD422F7285A623F1D02558B389CF00A /* MMT14DownStoreKitToolUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E9CD4960C3FEE5A6BA884B2A22EC38 /* MMT14DownStoreKitToolUnit.swift */; };
 		B33EAB46901D4D4D4DC3F7C3F6ED8729 /* Pods-MMTStoreKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F20623CB2E2F048D691574E7D5FCE301 /* Pods-MMTStoreKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D326229570AA3C54EB85E995FC4A9EDB /* MMT15Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2B5984728C5AA41ABDAB2C27A3CD49 /* MMT15Utils.swift */; };
-		D5F3FD6BE4C5182DC9531198E5E15269 /* MMTStoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCA36969EC4803B545A06555677F745 /* MMTStoreKit.swift */; };
+		CDDA281FD0B55596CF4F0CB64F579997 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21042E9373E06C1FF2749EEB2023EC3 /* StoreKit.framework */; };
+		CF789FEC4921C4889F52CE3B4CE01411 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D28A37337FEABAF2322B8F0CC63210F /* Product.swift */; };
+		E0B3B80DF67C32EDBE7E9DED4B4F5B46 /* MMTStoreKitTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6471C240DEC9FC35C2F813B4B95A2288 /* MMTStoreKitTool.swift */; };
 		E0E4E6AE07EC500C63DAFD4B3F9D4DD7 /* Pods-MMTStoreKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE04F84D8EA75489900BCC4B59F855A7 /* Pods-MMTStoreKit_Tests-dummy.m */; };
-		E7863A6B50A700C56674FBDFAEC595E3 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = DED6C2B05FFC17D0B9FE47870DCF5DD0 /* Localizable.strings */; };
-		EDEE990F6CD388898F6F78DDBFC2F761 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 899BB4CEA462A8E07ED83B1957AADBB5 /* Localizable.strings */; };
-		F4506710B9F03E102273B5E910B1A4C1 /* MMTStoreKitTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A9F879B60BD362BCDDACE17EA37611 /* MMTStoreKitTool.swift */; };
+		E3C302DF384A8700C0FA2D6F2D845025 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 5E35C7116EBF0157C4B86C2500AB8440 /* Localizable.strings */; };
+		E8A9DB8C7C06392467F978328330F107 /* MMT15Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282DEA0DB133047A98C748E670DF34F /* MMT15Utils.swift */; };
+		EBB4E572FC3A25B8E807A52C472E4968 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9498F677FC3E34083EF167D0CE6D09BE /* String.swift */; };
+		EE08EAC633E1244202C6A1A21F0E7007 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 516C1E0F68F3CF2C822EA42F263AD97F /* Localizable.strings */; };
+		F306FB63AA6D21A4E12A13B4D6767113 /* MMTStoreKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AD22D8BCB974926EA684DE7B635FBE /* MMTStoreKit-dummy.m */; };
+		FE5F414372B1858005AD79A197350E09 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = BFA4577B480A60942CF8AC4014C899A1 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2F0C099E9E6056D423B6EAE914DFA70D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4E872256470F45116885F0ED498D6EF8;
-			remoteInfo = "Pods-MMTStoreKit_Example";
-		};
-		DA2FB0E8EECA2CF4D4ED3F02BF885929 /* PBXContainerItemProxy */ = {
+		271E1B53EDF484AF16024B4DDB7202CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9FA54A9CD4D20C2ADC631F33DC055715;
 			remoteInfo = MMTStoreKit;
 		};
+		9F471EAA9AC53FE48D29853DBFC19C07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E872256470F45116885F0ED498D6EF8;
+			remoteInfo = "Pods-MMTStoreKit_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		027D2A8885780CB3EAFE1AEC2C51530B /* Pods-MMTStoreKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMTStoreKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		0E9D316E0847A42F9E9E5FAEBA318FF2 /* ProductID.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProductID.swift; sourceTree = "<group>"; };
 		0EE1DB3F11A3CF5D4457D177138CDF0F /* Pods-MMTStoreKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMTStoreKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		125D754CFCB1C6BFA7320ADC440F1E6A /* Pods-MMTStoreKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MMTStoreKit_Example.modulemap"; sourceTree = "<group>"; };
-		15D694C491B9C8592DA03D24B950FEA6 /* InAppProduct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InAppProduct.swift; sourceTree = "<group>"; };
-		1CD288E91DD5C8C7BBEA41D0C050905B /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		14DEA6D4B5CCC3EE1D2D92F4CE7BA19A /* MMTStoreContextModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMTStoreContextModel.swift; path = MMTStoreKit/Classes/MMTStoreContextModel.swift; sourceTree = "<group>"; };
 		2405DEF1C5D9A8577053B081448E81F0 /* Pods_MMTStoreKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMTStoreKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		28D4CFA7FEDADD34D6EC9111C63E57FA /* ProductID.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProductID.swift; sourceTree = "<group>"; };
-		2FB72338350CBB9F9DF72DDF390B78B4 /* MMT15StoreContext+Products.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MMT15StoreContext+Products.swift"; path = "MMTStoreKit/Classes/MMT15StoreContext+Products.swift"; sourceTree = "<group>"; };
-		349AEF42B0D2AA7678B7739C42722D2A /* MMTStoreKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMTStoreKit-dummy.m"; sourceTree = "<group>"; };
-		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2D429B159F3187B71E54EFC98E9D8BE1 /* MMTStoreKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMTStoreKit.swift; path = MMTStoreKit/Classes/MMTStoreKit.swift; sourceTree = "<group>"; };
+		39C18515EF34F118053FB308EF9FADF1 /* MMTStoreKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MMTStoreKit-Info.plist"; sourceTree = "<group>"; };
+		3D28A37337FEABAF2322B8F0CC63210F /* Product.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		4282DEA0DB133047A98C748E670DF34F /* MMT15Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMT15Utils.swift; path = MMTStoreKit/Classes/MMT15Utils.swift; sourceTree = "<group>"; };
 		42BBB203899CF68E1D4F50AECCCCF5D3 /* Pods-MMTStoreKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MMTStoreKit_Tests.modulemap"; sourceTree = "<group>"; };
-		4675C36A3DC7F7FC068906D6C9B3D5FF /* MMTStoreKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMTStoreKit.modulemap; sourceTree = "<group>"; };
-		488D710BE09CC7E91CB92A3E76195549 /* MMTStoreKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMTStoreKit.debug.xcconfig; sourceTree = "<group>"; };
+		42E6F075A6CB9F59E9D5AEA85AB20344 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		49487637A36A831A900AD50F33AB0315 /* Pods-MMTStoreKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMTStoreKit_Example-Info.plist"; sourceTree = "<group>"; };
-		4BB3781CEA0E988207BF2C2ECE901ECC /* Product.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		4D94D818F081322976D722D0A38B2356 /* MMT15ValidatableTransaction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMT15ValidatableTransaction.swift; path = MMTStoreKit/Classes/MMT15ValidatableTransaction.swift; sourceTree = "<group>"; };
 		50CFA7AFE8BA9B8D062ADBB9B15147AB /* MMTStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMTStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B3B0A10B3405AD972E02A7CDB1FAE29 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		5BCA36969EC4803B545A06555677F745 /* MMTStoreKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMTStoreKit.swift; path = MMTStoreKit/Classes/MMTStoreKit.swift; sourceTree = "<group>"; };
-		5DB5CD93E24FAFB23D3D79C7FD128E3F /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
-		5DC1CF6FB6F10D933B567A4CE40E5214 /* MMT15StoreContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMT15StoreContext.swift; path = MMTStoreKit/Classes/MMT15StoreContext.swift; sourceTree = "<group>"; };
-		6771E883C789A56CEBBAF680A3DD9E5E /* MMT14DownStoreKitToolUnit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMT14DownStoreKitToolUnit.swift; path = MMTStoreKit/Classes/MMT14DownStoreKitToolUnit.swift; sourceTree = "<group>"; };
-		68020F10A64540B4D6FFACC70782FEA8 /* MMTStoreKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MMTStoreKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		702793FF3716BEBD0D3CD0C525E6D655 /* MMTStoreKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMTStoreKit-umbrella.h"; sourceTree = "<group>"; };
+		516C1E0F68F3CF2C822EA42F263AD97F /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5E35C7116EBF0157C4B86C2500AB8440 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6471C240DEC9FC35C2F813B4B95A2288 /* MMTStoreKitTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMTStoreKitTool.swift; path = MMTStoreKit/Classes/MMTStoreKitTool.swift; sourceTree = "<group>"; };
+		65AEF56DF9DF6EC3C817EECC7DE58401 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6E34A4F052C26F5A7C24F54FCDB3B077 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		732510329E3800CB09DCDB12DA2A82FF /* InAppProduct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InAppProduct.swift; sourceTree = "<group>"; };
+		75E2EEE95DF5DFCCF66FC5E1F8C6EA8A /* MMTStoreKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMTStoreKit.debug.xcconfig; sourceTree = "<group>"; };
+		7E61195D16467889D7D94A6AA13ABBDF /* MMT15StoreContext+CheckReceipt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MMT15StoreContext+CheckReceipt.swift"; path = "MMTStoreKit/Classes/MMT15StoreContext+CheckReceipt.swift"; sourceTree = "<group>"; };
 		801516F93D4CE8F3EEFA927E46A66A52 /* Pods-MMTStoreKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMTStoreKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		81BA8347C45226504116B1C18F5F0C47 /* Pods_MMTStoreKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMTStoreKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E9CD4960C3FEE5A6BA884B2A22EC38 /* MMT14DownStoreKitToolUnit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMT14DownStoreKitToolUnit.swift; path = MMTStoreKit/Classes/MMT14DownStoreKitToolUnit.swift; sourceTree = "<group>"; };
 		8497AF245E63D7B335896F4DAF092613 /* Pods-MMTStoreKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMTStoreKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		899BB4CEA462A8E07ED83B1957AADBB5 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
-		8C56467B96CF7FC630E9757A333B371D /* MMT15ValidatableTransaction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMT15ValidatableTransaction.swift; path = MMTStoreKit/Classes/MMT15ValidatableTransaction.swift; sourceTree = "<group>"; };
-		9A2B5984728C5AA41ABDAB2C27A3CD49 /* MMT15Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMT15Utils.swift; path = MMTStoreKit/Classes/MMT15Utils.swift; sourceTree = "<group>"; };
+		85CCE8C22BB67BA92517809A4E6913C5 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		87A71B489ED684C9F56752C38BF66DF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93AD22D8BCB974926EA684DE7B635FBE /* MMTStoreKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMTStoreKit-dummy.m"; sourceTree = "<group>"; };
+		9498F677FC3E34083EF167D0CE6D09BE /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		9604F4A1AB54A9206B5D49D401D6D45A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9936B91561B28D091742CF2DA7483D96 /* MMTStoreKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMTStoreKit-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F16BE4AF3AE2A006E03B407C4AFF02D /* Pods-MMTStoreKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMTStoreKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F469C18EEA5E90320C9DFC0D51CE92B /* Pods-MMTStoreKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMTStoreKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9FC7913B3E8839FD6B745E3618F5CDB7 /* MMTStoreKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMTStoreKit.release.xcconfig; sourceTree = "<group>"; };
-		A239100FB564039A446D6974454D6D25 /* MMT15StoreKitToolUnit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMT15StoreKitToolUnit.swift; path = MMTStoreKit/Classes/MMT15StoreKitToolUnit.swift; sourceTree = "<group>"; };
+		A15FF00FF3C2AB1B5900F7D29EC6D91B /* MMTStoreKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MMTStoreKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1E45CB2253161377D7A5CEB56D8F101 /* MMTStoreKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMTStoreKit.release.xcconfig; sourceTree = "<group>"; };
 		A3157956C8D6E8700729B406A61E582C /* Pods-MMTStoreKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMTStoreKit_Example-dummy.m"; sourceTree = "<group>"; };
-		A5287590C382F70610AB2096A7714865 /* MMT15StoreContext+CheckReceipt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MMT15StoreContext+CheckReceipt.swift"; path = "MMTStoreKit/Classes/MMT15StoreContext+CheckReceipt.swift"; sourceTree = "<group>"; };
-		A584AA9A3B4B53744DEA1F286EE46839 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		A922126A024036F279B1EC1FDEC55F39 /* Pods-MMTStoreKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMTStoreKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C12332E512C4E32A7846F8E6B26F7915 /* MMTStoreKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MMTStoreKit-Info.plist"; sourceTree = "<group>"; };
+		B29F3D12D07DB12253DE0B7DCEAD2EA9 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B62A383D66D8644EA9EE4F24A750CDFD /* MMT15StoreContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMT15StoreContext.swift; path = MMTStoreKit/Classes/MMT15StoreContext.swift; sourceTree = "<group>"; };
+		BD01C9D6B3EEE14492F71AAE7FDCEAEF /* MMTStoreKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMTStoreKit-prefix.pch"; sourceTree = "<group>"; };
+		BFA4577B480A60942CF8AC4014C899A1 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C21042E9373E06C1FF2749EEB2023EC3 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
 		C697B5CE7622711BAF2710CBE2D100A9 /* Pods-MMTStoreKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMTStoreKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C6AF017F8F7D7C31BABF085B6BFCBB52 /* MMTStoreKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMTStoreKit-prefix.pch"; sourceTree = "<group>"; };
-		C8A9F879B60BD362BCDDACE17EA37611 /* MMTStoreKitTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMTStoreKitTool.swift; path = MMTStoreKit/Classes/MMTStoreKitTool.swift; sourceTree = "<group>"; };
-		CF61D1D3A26CAF6B4781DE92D37F922E /* MMT14DownIAPManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMT14DownIAPManager.swift; path = MMTStoreKit/Classes/MMT14DownIAPManager.swift; sourceTree = "<group>"; };
+		CA06771B365C35A9BD562968CDA5319F /* MMT14DownIAPManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMT14DownIAPManager.swift; path = MMTStoreKit/Classes/MMT14DownIAPManager.swift; sourceTree = "<group>"; };
+		CA0A37EA65AE1872856306C338680F61 /* MMT15StoreContext+Products.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MMT15StoreContext+Products.swift"; path = "MMTStoreKit/Classes/MMT15StoreContext+Products.swift"; sourceTree = "<group>"; };
+		D19896351448E36A3A3AE24EF62EB72F /* MMTStoreKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMTStoreKit.modulemap; sourceTree = "<group>"; };
 		D2815FB6472D0546324760EA4DB7D40B /* Pods-MMTStoreKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMTStoreKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DE9DCD993422A7547FC36DA16A6DFE5E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DED6C2B05FFC17D0B9FE47870DCF5DD0 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E60756879B57D1DA6DA79B60C479DF2F /* Pods-MMTStoreKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMTStoreKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E84D4D76C5C964AF7DA9EB77B31913A8 /* MMT15StoreServiceError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMT15StoreServiceError.swift; path = MMTStoreKit/Classes/MMT15StoreServiceError.swift; sourceTree = "<group>"; };
+		EC5A79A06A5586A5D5B57EABB2892EB0 /* MMT15StoreServiceError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMT15StoreServiceError.swift; path = MMTStoreKit/Classes/MMT15StoreServiceError.swift; sourceTree = "<group>"; };
+		F1717A65AF51DE99A130E39C614D8A3D /* MMT15StoreKitToolUnit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMT15StoreKitToolUnit.swift; path = MMTStoreKit/Classes/MMT15StoreKitToolUnit.swift; sourceTree = "<group>"; };
 		F20623CB2E2F048D691574E7D5FCE301 /* Pods-MMTStoreKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMTStoreKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F52428A8F7E1215170A27CD4E6B5558F /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		F66FECA5832A180D51C22C63143CA2A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F96C27C0D356121B88DE57E89C03EB4E /* Pods-MMTStoreKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMTStoreKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FE04F84D8EA75489900BCC4B59F855A7 /* Pods-MMTStoreKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMTStoreKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		FF9AFD7E82EB6F807619D2F982C123BE /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,14 +127,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		450E6E82AFDC8CB38BA5727415351D09 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A8FACDF8D85D71FF7E9A367B0D17B043 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AFBDEDDFA4BCC5CDA7BF1D35BE9F3EF9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,17 +135,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D427B4DBFDD75A826B8CCDAFD0D3D098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C447F846978B58AAFAA409ACB36B702 /* Foundation.framework in Frameworks */,
+				CDDA281FD0B55596CF4F0CB64F579997 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		090EEFD293437A31741B6E5F984D546B /* Pod */ = {
+		078F104B6A42FB4D2B61A7CD06300F85 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F66FECA5832A180D51C22C63143CA2A7 /* LICENSE */,
-				68020F10A64540B4D6FFACC70782FEA8 /* MMTStoreKit.podspec */,
-				DE9DCD993422A7547FC36DA16A6DFE5E /* README.md */,
+				91C2742F9D5D1E45C031EC759F3BDC46 /* Localizable.strings */,
 			);
-			name = Pod;
+			name = Resources;
+			path = MMTStoreKit/Classes/Resources;
 			sourceTree = "<group>";
 		};
 		0F5BAD9F80E0BA435FDC350EBCF5FF75 /* Pods-MMTStoreKit_Tests */ = {
@@ -168,24 +172,27 @@
 			path = "Target Support Files/Pods-MMTStoreKit_Tests";
 			sourceTree = "<group>";
 		};
-		160E625991CA63D69502083D182B641B /* Extensions */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F52428A8F7E1215170A27CD4E6B5558F /* String.swift */,
+				D7C4191F07A506EB0B12C402F365E5DF /* iOS */,
 			);
-			name = Extensions;
-			path = MMTStoreKit/Classes/Extensions;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		19065D014C6603DB68501FB7C650FDEF /* Products */ = {
+		45D43456BD13C73E32B114A6011BB6E7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				15D694C491B9C8592DA03D24B950FEA6 /* InAppProduct.swift */,
-				4BB3781CEA0E988207BF2C2ECE901ECC /* Product.swift */,
-				28D4CFA7FEDADD34D6EC9111C63E57FA /* ProductID.swift */,
+				D19896351448E36A3A3AE24EF62EB72F /* MMTStoreKit.modulemap */,
+				93AD22D8BCB974926EA684DE7B635FBE /* MMTStoreKit-dummy.m */,
+				39C18515EF34F118053FB308EF9FADF1 /* MMTStoreKit-Info.plist */,
+				BD01C9D6B3EEE14492F71AAE7FDCEAEF /* MMTStoreKit-prefix.pch */,
+				9936B91561B28D091742CF2DA7483D96 /* MMTStoreKit-umbrella.h */,
+				75E2EEE95DF5DFCCF66FC5E1F8C6EA8A /* MMTStoreKit.debug.xcconfig */,
+				A1E45CB2253161377D7A5CEB56D8F101 /* MMTStoreKit.release.xcconfig */,
 			);
-			name = Products;
-			path = MMTStoreKit/Classes/Products;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MMTStoreKit";
 			sourceTree = "<group>";
 		};
 		4B93E88A02808684BBCE84E5DAC562BD /* Targets Support Files */ = {
@@ -197,28 +204,24 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8395E1D42FB0B11C470BC3D4C1BE9C49 /* Resources */ = {
+		9EAE88A3D7DED4ACF8E8CDCEBDF24BCC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C5827BD078E41AA887A3C9D4E85B7FDB /* Localizable.strings */,
+				732510329E3800CB09DCDB12DA2A82FF /* InAppProduct.swift */,
+				3D28A37337FEABAF2322B8F0CC63210F /* Product.swift */,
+				0E9D316E0847A42F9E9E5FAEBA318FF2 /* ProductID.swift */,
 			);
-			name = Resources;
-			path = MMTStoreKit/Classes/Resources;
+			name = Products;
+			path = MMTStoreKit/Classes/Products;
 			sourceTree = "<group>";
 		};
-		C0E0BCB1F6E1A4F73EDDEFCD06C57743 /* Support Files */ = {
+		A385B61A91E01CFE986D7C759EC4530C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				4675C36A3DC7F7FC068906D6C9B3D5FF /* MMTStoreKit.modulemap */,
-				349AEF42B0D2AA7678B7739C42722D2A /* MMTStoreKit-dummy.m */,
-				C12332E512C4E32A7846F8E6B26F7915 /* MMTStoreKit-Info.plist */,
-				C6AF017F8F7D7C31BABF085B6BFCBB52 /* MMTStoreKit-prefix.pch */,
-				702793FF3716BEBD0D3CD0C525E6D655 /* MMTStoreKit-umbrella.h */,
-				488D710BE09CC7E91CB92A3E76195549 /* MMTStoreKit.debug.xcconfig */,
-				9FC7913B3E8839FD6B745E3618F5CDB7 /* MMTStoreKit.release.xcconfig */,
+				9498F677FC3E34083EF167D0CE6D09BE /* String.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MMTStoreKit";
+			name = Extensions;
+			path = MMTStoreKit/Classes/Extensions;
 			sourceTree = "<group>";
 		};
 		CEA14BC1A527DC41E3A53E56D250BE11 /* Products */ = {
@@ -235,59 +238,63 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E2AF6F792FC80D469ED4F72943BAABD2 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EC5AA588A8CCD787BE826D60B31406C6 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				CEA14BC1A527DC41E3A53E56D250BE11 /* Products */,
 				4B93E88A02808684BBCE84E5DAC562BD /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		CF4E2DDDB14C73A2461ABC7F6A7FF02E /* MMTStoreKit */ = {
+		D7C4191F07A506EB0B12C402F365E5DF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				CF61D1D3A26CAF6B4781DE92D37F922E /* MMT14DownIAPManager.swift */,
-				6771E883C789A56CEBBAF680A3DD9E5E /* MMT14DownStoreKitToolUnit.swift */,
-				5DC1CF6FB6F10D933B567A4CE40E5214 /* MMT15StoreContext.swift */,
-				A5287590C382F70610AB2096A7714865 /* MMT15StoreContext+CheckReceipt.swift */,
-				2FB72338350CBB9F9DF72DDF390B78B4 /* MMT15StoreContext+Products.swift */,
-				A239100FB564039A446D6974454D6D25 /* MMT15StoreKitToolUnit.swift */,
-				E84D4D76C5C964AF7DA9EB77B31913A8 /* MMT15StoreServiceError.swift */,
-				9A2B5984728C5AA41ABDAB2C27A3CD49 /* MMT15Utils.swift */,
-				8C56467B96CF7FC630E9757A333B371D /* MMT15ValidatableTransaction.swift */,
-				5BCA36969EC4803B545A06555677F745 /* MMTStoreKit.swift */,
-				C8A9F879B60BD362BCDDACE17EA37611 /* MMTStoreKitTool.swift */,
-				160E625991CA63D69502083D182B641B /* Extensions */,
-				090EEFD293437A31741B6E5F984D546B /* Pod */,
-				19065D014C6603DB68501FB7C650FDEF /* Products */,
-				8395E1D42FB0B11C470BC3D4C1BE9C49 /* Resources */,
-				C0E0BCB1F6E1A4F73EDDEFCD06C57743 /* Support Files */,
+				87A71B489ED684C9F56752C38BF66DF8 /* Foundation.framework */,
+				C21042E9373E06C1FF2749EEB2023EC3 /* StoreKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E2E4EA381028D1879B5C9421B5D88965 /* MMTStoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				CA06771B365C35A9BD562968CDA5319F /* MMT14DownIAPManager.swift */,
+				81E9CD4960C3FEE5A6BA884B2A22EC38 /* MMT14DownStoreKitToolUnit.swift */,
+				B62A383D66D8644EA9EE4F24A750CDFD /* MMT15StoreContext.swift */,
+				7E61195D16467889D7D94A6AA13ABBDF /* MMT15StoreContext+CheckReceipt.swift */,
+				CA0A37EA65AE1872856306C338680F61 /* MMT15StoreContext+Products.swift */,
+				F1717A65AF51DE99A130E39C614D8A3D /* MMT15StoreKitToolUnit.swift */,
+				EC5A79A06A5586A5D5B57EABB2892EB0 /* MMT15StoreServiceError.swift */,
+				4282DEA0DB133047A98C748E670DF34F /* MMT15Utils.swift */,
+				4D94D818F081322976D722D0A38B2356 /* MMT15ValidatableTransaction.swift */,
+				14DEA6D4B5CCC3EE1D2D92F4CE7BA19A /* MMTStoreContextModel.swift */,
+				2D429B159F3187B71E54EFC98E9D8BE1 /* MMTStoreKit.swift */,
+				6471C240DEC9FC35C2F813B4B95A2288 /* MMTStoreKitTool.swift */,
+				A385B61A91E01CFE986D7C759EC4530C /* Extensions */,
+				E2FFC4A678C08A9CA4548DE273A12DC1 /* Pod */,
+				9EAE88A3D7DED4ACF8E8CDCEBDF24BCC /* Products */,
+				078F104B6A42FB4D2B61A7CD06300F85 /* Resources */,
+				45D43456BD13C73E32B114A6011BB6E7 /* Support Files */,
 			);
 			name = MMTStoreKit;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E2FFC4A678C08A9CA4548DE273A12DC1 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+				6E34A4F052C26F5A7C24F54FCDB3B077 /* LICENSE */,
+				A15FF00FF3C2AB1B5900F7D29EC6D91B /* MMTStoreKit.podspec */,
+				9604F4A1AB54A9206B5D49D401D6D45A /* README.md */,
 			);
-			name = Frameworks;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		E2AF6F792FC80D469ED4F72943BAABD2 /* Development Pods */ = {
+		EC5AA588A8CCD787BE826D60B31406C6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CF4E2DDDB14C73A2461ABC7F6A7FF02E /* MMTStoreKit */,
+				E2E4EA381028D1879B5C9421B5D88965 /* MMTStoreKit */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		ECA5B6CDD228CF2BF2054BFD772F0BC5 /* Pods-MMTStoreKit_Example */ = {
@@ -318,11 +325,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2359799D7527A5F0267450A3B60B282F /* Headers */ = {
+		86FEFBAF572C48C234EBE8FECF5B1B21 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAB27E98CD20D1498DC472613EC8E98F /* MMTStoreKit-umbrella.h in Headers */,
+				AA06022AC9C4C4F39B515E172D0A6D78 /* MMTStoreKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +356,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D57EB4F38B5406716FDDB9EEB74006C1 /* PBXTargetDependency */,
+				DFE77888E9E75376C81B553F69036BE8 /* PBXTargetDependency */,
 			);
 			name = "Pods-MMTStoreKit_Example";
 			productName = Pods_MMTStoreKit_Example;
@@ -358,12 +365,12 @@
 		};
 		9FA54A9CD4D20C2ADC631F33DC055715 /* MMTStoreKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5278286C3434C417C73E0DAA6B1D4808 /* Build configuration list for PBXNativeTarget "MMTStoreKit" */;
+			buildConfigurationList = 46CF3BC0CF9FC49CBBF4093F18387C33 /* Build configuration list for PBXNativeTarget "MMTStoreKit" */;
 			buildPhases = (
-				2359799D7527A5F0267450A3B60B282F /* Headers */,
-				77B2B66EE1A92C70548BC133499D6F80 /* Sources */,
-				450E6E82AFDC8CB38BA5727415351D09 /* Frameworks */,
-				D8BBE7CBF68B3B7D0EAAFD0010AD8A2A /* Resources */,
+				86FEFBAF572C48C234EBE8FECF5B1B21 /* Headers */,
+				7F8BC7B47266C3AF8C8F771FD774D713 /* Sources */,
+				D427B4DBFDD75A826B8CCDAFD0D3D098 /* Frameworks */,
+				240CA13E60647A0BCD14A709A81E2769 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -386,7 +393,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9E7F98D1422614067A2BA79BE8C8C111 /* PBXTargetDependency */,
+				DCAC5AC3E9122AC72B63CD37B741E68C /* PBXTargetDependency */,
 			);
 			name = "Pods-MMTStoreKit_Tests";
 			productName = Pods_MMTStoreKit_Tests;
@@ -429,14 +436,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7A126F9C0AF7E5BFFA1E511F43319260 /* Resources */ = {
+		240CA13E60647A0BCD14A709A81E2769 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8BBE7CBF68B3B7D0EAAFD0010AD8A2A /* Resources */ = {
+		7A126F9C0AF7E5BFFA1E511F43319260 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -453,33 +460,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		77B2B66EE1A92C70548BC133499D6F80 /* Sources */ = {
+		7F8BC7B47266C3AF8C8F771FD774D713 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B56E41B06E17231EE3E4A46B9B187AA /* InAppProduct.swift in Sources */,
-				EDEE990F6CD388898F6F78DDBFC2F761 /* Localizable.strings in Sources */,
-				004AC3DE9529F5B4774173A8CB600F79 /* Localizable.strings in Sources */,
-				E7863A6B50A700C56674FBDFAEC595E3 /* Localizable.strings in Sources */,
-				30FFD44B8AC0F5B0952B4E4888FD7450 /* Localizable.strings in Sources */,
-				2DFA590C463FA9F54757B96AF182239C /* Localizable.strings in Sources */,
-				1C584316AA614109121F2393B0052EAC /* Localizable.strings in Sources */,
-				AF3326F5335A19B8D66B42A4333F02D6 /* Localizable.strings in Sources */,
-				724525DF30E8844ABD1234E29333C8F1 /* MMT14DownIAPManager.swift in Sources */,
-				7125FBF8A6AAFBC56765D76882473881 /* MMT14DownStoreKitToolUnit.swift in Sources */,
-				677D3257B374BD447EDED041A9B76DCD /* MMT15StoreContext.swift in Sources */,
-				94F04F833BCC8805EBE9FC3FB8B9E179 /* MMT15StoreContext+CheckReceipt.swift in Sources */,
-				30091F9EAE40B6CE0590E329C8B20FBA /* MMT15StoreContext+Products.swift in Sources */,
-				13D30D448E63CD5DA895F4BCB308B129 /* MMT15StoreKitToolUnit.swift in Sources */,
-				62AAF93108020D9DF77D241DF4347E9F /* MMT15StoreServiceError.swift in Sources */,
-				D326229570AA3C54EB85E995FC4A9EDB /* MMT15Utils.swift in Sources */,
-				0BB9590F769D02E453A14953C45B611D /* MMT15ValidatableTransaction.swift in Sources */,
-				D5F3FD6BE4C5182DC9531198E5E15269 /* MMTStoreKit.swift in Sources */,
-				8459CD93D21F65972D0C57D43AA3010B /* MMTStoreKit-dummy.m in Sources */,
-				F4506710B9F03E102273B5E910B1A4C1 /* MMTStoreKitTool.swift in Sources */,
-				9A3BDFF2956F24B2E7A479CC6DBF6971 /* Product.swift in Sources */,
-				21622DE582F68C39FA4D459CE2A95CB8 /* ProductID.swift in Sources */,
-				1F5E96CA90D98E494D42159E553D3065 /* String.swift in Sources */,
+				610B2D13DBFD404AF3479AF3B9904440 /* InAppProduct.swift in Sources */,
+				7D010127C119E61AB239E256DF01D1C5 /* Localizable.strings in Sources */,
+				E3C302DF384A8700C0FA2D6F2D845025 /* Localizable.strings in Sources */,
+				FE5F414372B1858005AD79A197350E09 /* Localizable.strings in Sources */,
+				EE08EAC633E1244202C6A1A21F0E7007 /* Localizable.strings in Sources */,
+				20092ED1A2F51BD3922993E1C2A8EC1B /* Localizable.strings in Sources */,
+				380CFA1C0381C12001E2692D7D06E6BF /* Localizable.strings in Sources */,
+				65299D25BFD077557319ACCA4C35611B /* Localizable.strings in Sources */,
+				8A3B74F2F883BF1B51DEC4C6F10EDF24 /* MMT14DownIAPManager.swift in Sources */,
+				AAD422F7285A623F1D02558B389CF00A /* MMT14DownStoreKitToolUnit.swift in Sources */,
+				09B1ED336FB2789FCC6853DB1A5E3938 /* MMT15StoreContext.swift in Sources */,
+				742233E6FE0F09BEC537D3906145E374 /* MMT15StoreContext+CheckReceipt.swift in Sources */,
+				90B3FCFB627509CFE7A0C4E34772A042 /* MMT15StoreContext+Products.swift in Sources */,
+				5F9EFE6D7ADD06C194DDCAC0F62965D9 /* MMT15StoreKitToolUnit.swift in Sources */,
+				60C0210CC47C3B543EE4A70A75BF10B2 /* MMT15StoreServiceError.swift in Sources */,
+				E8A9DB8C7C06392467F978328330F107 /* MMT15Utils.swift in Sources */,
+				130477324ADA476D576209AE22644B1C /* MMT15ValidatableTransaction.swift in Sources */,
+				1448D8201C5802A50A1DD163CFD39789 /* MMTStoreContextModel.swift in Sources */,
+				3A990DDEF41D77110D3A3F9C818C0B25 /* MMTStoreKit.swift in Sources */,
+				F306FB63AA6D21A4E12A13B4D6767113 /* MMTStoreKit-dummy.m in Sources */,
+				E0B3B80DF67C32EDBE7E9DED4B4F5B46 /* MMTStoreKitTool.swift in Sources */,
+				CF789FEC4921C4889F52CE3B4CE01411 /* Product.swift in Sources */,
+				55037F2A7B36F22261D5B0A363618202 /* ProductID.swift in Sources */,
+				EBB4E572FC3A25B8E807A52C472E4968 /* String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,31 +510,31 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9E7F98D1422614067A2BA79BE8C8C111 /* PBXTargetDependency */ = {
+		DCAC5AC3E9122AC72B63CD37B741E68C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MMTStoreKit_Example";
 			target = 4E872256470F45116885F0ED498D6EF8 /* Pods-MMTStoreKit_Example */;
-			targetProxy = 2F0C099E9E6056D423B6EAE914DFA70D /* PBXContainerItemProxy */;
+			targetProxy = 9F471EAA9AC53FE48D29853DBFC19C07 /* PBXContainerItemProxy */;
 		};
-		D57EB4F38B5406716FDDB9EEB74006C1 /* PBXTargetDependency */ = {
+		DFE77888E9E75376C81B553F69036BE8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MMTStoreKit;
 			target = 9FA54A9CD4D20C2ADC631F33DC055715 /* MMTStoreKit */;
-			targetProxy = DA2FB0E8EECA2CF4D4ED3F02BF885929 /* PBXContainerItemProxy */;
+			targetProxy = 271E1B53EDF484AF16024B4DDB7202CF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C5827BD078E41AA887A3C9D4E85B7FDB /* Localizable.strings */ = {
+		91C2742F9D5D1E45C031EC759F3BDC46 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				899BB4CEA462A8E07ED83B1957AADBB5 /* Localizable.strings */,
-				1CD288E91DD5C8C7BBEA41D0C050905B /* Localizable.strings */,
-				DED6C2B05FFC17D0B9FE47870DCF5DD0 /* Localizable.strings */,
-				FF9AFD7E82EB6F807619D2F982C123BE /* Localizable.strings */,
-				5DB5CD93E24FAFB23D3D79C7FD128E3F /* Localizable.strings */,
-				5B3B0A10B3405AD972E02A7CDB1FAE29 /* Localizable.strings */,
-				A584AA9A3B4B53744DEA1F286EE46839 /* Localizable.strings */,
+				65AEF56DF9DF6EC3C817EECC7DE58401 /* Localizable.strings */,
+				5E35C7116EBF0157C4B86C2500AB8440 /* Localizable.strings */,
+				BFA4577B480A60942CF8AC4014C899A1 /* Localizable.strings */,
+				516C1E0F68F3CF2C822EA42F263AD97F /* Localizable.strings */,
+				42E6F075A6CB9F59E9D5AEA85AB20344 /* Localizable.strings */,
+				85CCE8C22BB67BA92517809A4E6913C5 /* Localizable.strings */,
+				B29F3D12D07DB12253DE0B7DCEAD2EA9 /* Localizable.strings */,
 			);
 			name = Localizable.strings;
 			path = .;
@@ -535,43 +543,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0605CEEF17CE3B9AB38C0B3FD62BFF16 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FC7913B3E8839FD6B745E3618F5CDB7 /* MMTStoreKit.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/MMTStoreKit/MMTStoreKit-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/MMTStoreKit/MMTStoreKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MMTStoreKit/MMTStoreKit.modulemap";
-				PRODUCT_MODULE_NAME = MMTStoreKit;
-				PRODUCT_NAME = MMTStoreKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		505C2B5F2B16AE999FFE387732E91D2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E60756879B57D1DA6DA79B60C479DF2F /* Pods-MMTStoreKit_Example.debug.xcconfig */;
@@ -675,42 +646,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		668DDB9B0464BC8E23529FF7D1A31DE0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 488D710BE09CC7E91CB92A3E76195549 /* MMTStoreKit.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/MMTStoreKit/MMTStoreKit-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/MMTStoreKit/MMTStoreKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MMTStoreKit/MMTStoreKit.modulemap";
-				PRODUCT_MODULE_NAME = MMTStoreKit;
-				PRODUCT_NAME = MMTStoreKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -881,6 +816,79 @@
 			};
 			name = Release;
 		};
+		ACBAA4CC38E40749AFA2A2001F6824ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1E45CB2253161377D7A5CEB56D8F101 /* MMTStoreKit.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MMTStoreKit/MMTStoreKit-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/MMTStoreKit/MMTStoreKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMTStoreKit/MMTStoreKit.modulemap";
+				PRODUCT_MODULE_NAME = MMTStoreKit;
+				PRODUCT_NAME = MMTStoreKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5E2140175BA3DE94FAB7BB99BE18879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75E2EEE95DF5DFCCF66FC5E1F8C6EA8A /* MMTStoreKit.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MMTStoreKit/MMTStoreKit-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/MMTStoreKit/MMTStoreKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMTStoreKit/MMTStoreKit.modulemap";
+				PRODUCT_MODULE_NAME = MMTStoreKit;
+				PRODUCT_NAME = MMTStoreKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -902,20 +910,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		46CF3BC0CF9FC49CBBF4093F18387C33 /* Build configuration list for PBXNativeTarget "MMTStoreKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E2140175BA3DE94FAB7BB99BE18879 /* Debug */,
+				ACBAA4CC38E40749AFA2A2001F6824ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
 				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5278286C3434C417C73E0DAA6B1D4808 /* Build configuration list for PBXNativeTarget "MMTStoreKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				668DDB9B0464BC8E23529FF7D1A31DE0 /* Debug */,
-				0605CEEF17CE3B9AB38C0B3FD62BFF16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

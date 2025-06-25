@@ -1,22 +1,23 @@
 {
   "name": "MMTStoreKit",
-  "version": "0.1.0",
-  "summary": "A short description of MMTStoreKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Donghn/MMTStoreKit",
+  "version": "0.6.0",
+  "summary": "A IAP Tool For ios 13.0+",
+  "description": "For ios 15.0+, it will auto use storekit2\nFor ios 14.0-, it will auto use storekit",
+  "homepage": "https://github.com/NealWills/MMTStoreKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Donghn": "Donghn@maxeye.com"
+    "nealwills": "nealwills93@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Donghn/MMTStoreKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/NealWills/MMTStoreKit.git",
+    "tag": "0.6.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
-  "source_files": "MMTStoreKit/Classes/**/*"
+  "source_files": "MMTStoreKit/Classes/**/*",
+  "frameworks": "StoreKit"
 }

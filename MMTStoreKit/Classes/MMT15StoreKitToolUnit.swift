@@ -19,7 +19,7 @@ class MMT15StoreKitToolUnit: MMTStoreKitToolUnit {
             let products = try await storeContext.getProducts()
             for product in products {
                 
-                let model = MMT15StoreContextModel.init()
+                let model = MMTStoreContextModel.init()
                 model.jsonRepresentation = product.jsonRepresentation
                 model.displayName = product.displayName
                 model.displayPrice = product.displayPrice
